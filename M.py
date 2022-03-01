@@ -10,15 +10,7 @@ def buildNote(filePath: str) -> str:
         pass
 
 
-def calc(note:float,coef:int):
-    noteC=note*coef
-    return noteC
-def buildNote(filePath: str) -> str:
-    with open(filePath,'r') as file:
-        texte = file.read()
-        return texte
-        file.close()
-        pass
+
 
 def main() -> list:
     
